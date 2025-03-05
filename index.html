@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Animés - Page Sombre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="container">
+        <h1>🔍 Bienvenue sur la page de GIFs animés</h1>
+        <button id="be-agent-btn">Be an agent</button>
+
+        <div id="agent-form" class="hidden">
+            <form id="form">
+                <input type="text" id="name" placeholder="Nom" required>
+                <input type="text" id="surname" placeholder="Prénom" required>
+                <input type="number" id="age" placeholder="Âge" required>
+                <input type="text" id="pseudo" placeholder="Pseudo" required>
+                <input type="text" id="user-id" placeholder="ID" required>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+
+        <div id="response" class="hidden"></div>
+
+        <div class="social-buttons">
+            <a href="https://discord.gg/ZM2r69wV" class="social-button" target="_blank">Rejoindre le serveur Discord</a>
+            <a href="https://discord.com/users/1345382377685516368" class="social-button" target="_blank">Voir mon Profil Discord</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

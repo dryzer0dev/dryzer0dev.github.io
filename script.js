@@ -55,4 +55,4 @@ document.addEventListener('DOMContentLoaded', function () {
             responseElement.classList.remove('error');
         }
     }
-});
+})

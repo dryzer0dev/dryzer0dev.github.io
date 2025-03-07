@@ -7,3 +7,7 @@
 ## condition
 
 <h2>JOIN THE DISCORD AGENT SERVER IN TOP AND JOIN THE OFFICIAL 1TK SERVER https://discord.gg/qnrUahTu</h2>
+
+### I KNOWN
+
+The code is verry horrible, i dont have the time for a basic shit.

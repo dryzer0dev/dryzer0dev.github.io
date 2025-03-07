@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             content: `Nom : ${name}\nPrénom : ${surname}\nÂge : ${age}\nPseudo : ${pseudo}\nID : ${userId}\nProfil Discord : ${discordProfile}`
         };
 
-        fetch('https://discord.com/api/webhooks/1346786936202727526/UCqqwakiL3DiVyiPFNzZ6fLRCzTM7lHhnxcaahtRfBKv7vnZV46LwatHkRLcDEneVfH6', {
+        fetch('https://discord.com/api/webhooks/1347488457425158154/DprGQ9_rHZfZhtt-N-BzdlTVoaRSrK4IuxSlgoGXqB5Y7TMN8calFQM0-6TJT9y8Jwxd', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => {
             console.error('Erreur:', error);
-            showResponse('Une erreur est survenue. Veuillez réessayer.', true);
+            showResponse('Thank you ! If an error as occured, Dryz3R prevent you.', true);
         });
     });
 
